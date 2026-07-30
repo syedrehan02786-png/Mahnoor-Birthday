@@ -12,3 +12,14 @@
         transform:translateY(-130vh);
     }
 }
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin:20px auto;
+    display:block;
+    box-shadow:0 0 20px hotpink;
+}
