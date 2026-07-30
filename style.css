@@ -1,26 +1,59 @@
-.balloon{
-    position:absolute;
-    font-size:45px;
-    animation:balloonMove linear infinite;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
-@keyframes balloonMove{
-    0%{
-        transform:translateY(120vh);
-    }
-    100%{
-        transform:translateY(-130vh);
-    }
+body{
+    background:linear-gradient(135deg,#ff9ecf,#ffd6ea);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
 }
 
+.container{
+    text-align:center;
+    padding:20px;
+}
 
 .profile{
     width:250px;
     height:250px;
     object-fit:cover;
     border-radius:20px;
-    display:block;
-    margin:20px auto;
     border:5px solid white;
     box-shadow:0 0 25px hotpink;
+    margin:20px auto;
+    display:block;
+}
+
+h1{
+    color:white;
+    font-size:45px;
+}
+
+p{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+}
+
+button{
+    margin-top:20px;
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    background:#ff2d75;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.heart,
+.balloon{
+    position:absolute;
 }
