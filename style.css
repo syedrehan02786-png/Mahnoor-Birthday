@@ -1,0 +1,14 @@
+.balloon{
+    position:absolute;
+    font-size:45px;
+    animation:balloonMove linear infinite;
+}
+
+@keyframes balloonMove{
+    0%{
+        transform:translateY(120vh);
+    }
+    100%{
+        transform:translateY(-130vh);
+    }
+}
